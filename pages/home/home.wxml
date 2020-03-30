@@ -1,0 +1,33 @@
+<!--pages/home/home.wxml-->
+<view class='swiper-box'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" current="{{current}}" bindchange="swiperChange" catchtap="onSwiperTap">
+    <block wx:for="{{imgUrls}}" wx:key="banner">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="dots"> 
+    <block wx:for="{{imgUrls}}" wx:key="unique"> 
+      <view class="dot{{index == current ? ' active' : ''}}"></view> 
+    </block> 
+  </view>
+</view>
+
+<view class="userContainer" bindtap="goMap">
+ <view>
+  <image style="width: 33px; height: 33px; background-color: #fff;" src="../../images/location.png"></image>
+ </view>
+ <view >
+ <text class="productNameText">天津市蓟州区渔阳镇果园东村2区14号阿燕农家院</text>
+  <!-- <button bindtap="goMap" class="note2_item" style="width:100%">天津市蓟州区渔阳镇果园东村2区14号阿燕农家院</button> -->
+ </view>
+ <view style="margin-right:5px">></view>
+</view>
+
+<view>  
+  <contact-button type="default-dark" size="20" session-from="weapp" class="img-plus-style zindex100 yc">
+  </contact-button>
+  <image src="../../images/xk_kefu.png" class="img-plus-style"></image> 
+  <image src="../../images/xk_tel.png" class="img-plus-style1" bindtap="calling"></image>
+</view>

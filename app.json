@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/eat/eat",
+    "pages/price/price",
+    "pages/play/play",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/webview/webview"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/price/price",
+        "text": "价格"
+      },
+      {
+        "pagePath": "pages/eat/eat",
+        "text": "吃"
+      },
+      {
+        "pagePath": "pages/play/play",
+        "text": "玩"
+      }
+    ]
+  },
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.5",
+      "provider": "wx50b5593e81dd937a"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序定位"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "阿燕农家院",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
