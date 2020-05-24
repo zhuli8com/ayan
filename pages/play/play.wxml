@@ -1,2 +1,6 @@
 <!--pages/play/play.wxml-->
-<text>pages/play/play.wxml</text>
+<view class="play">
+<image src="http://blogs.zhushihong.com/photos/ayan/play1.jpeg" mode="widthFix"></image>
+<image src="http://blogs.zhushihong.com/photos/ayan/play2.jpeg" mode="widthFix"></image>
+<image src="http://blogs.zhushihong.com/photos/ayan/play3.jpeg" mode="widthFix"></image>
+</view>

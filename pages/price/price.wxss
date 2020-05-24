@@ -1,1 +1,25 @@
 /* pages/price/price.wxss */
+.body{
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.body video{
+  width: 100%;
+  height: 160px;
+}
+.body text{
+  font-size: 14px;
+  color: gray;
+}
+
+.body image{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.body map{
+  width: 100%; 
+  height:35vh;
+  margin-top:10px;
+}

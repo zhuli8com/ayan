@@ -1,30 +1,34 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/eat/eat",
-    "pages/price/price",
     "pages/play/play",
+    "pages/price/price",
     "pages/index/index",
     "pages/logs/logs",
     "pages/webview/webview"
   ],
   "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#08af75",
+    "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/price/price",
-        "text": "价格"
-      },
-      {
-        "pagePath": "pages/eat/eat",
-        "text": "吃"
+        "text": "首页",
+        "iconPath": "/images/首页.png",
+        "selectedIconPath": "/images/首页(1).png"
       },
       {
         "pagePath": "pages/play/play",
-        "text": "玩"
+        "text": "景点",
+        "iconPath": "/images/景点.png",
+        "selectedIconPath": "/images/景点(1).png"
+      },
+      {
+        "pagePath": "pages/price/price",
+        "text": "联系我们",
+        "iconPath": "/images/联系我们.png",
+        "selectedIconPath": "/images/联系我们(1).png"
       }
     ]
   },

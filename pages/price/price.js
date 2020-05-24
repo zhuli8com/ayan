@@ -5,14 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    markers:[{
+      id: "0",      //标记点id
+      iconPath: "/images/location.png",    //标记点图标
+      longitude: 117.4696070000,    //中心经度
+      latitude: 40.0852040000,         //中心纬度
+      width:30,              //标记点图标宽
+      height:30             //标记点图标高
+}]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**

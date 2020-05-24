@@ -58,6 +58,7 @@ swiper image {
     align-items: center;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .user-item {
@@ -69,7 +70,7 @@ swiper image {
 
 .productNameText {
  color: rgb(32, 27, 27);
- font-size: 35rpx;
+ font-size: 13px;
  text-overflow:ellipsis;
  z-index: -1;
  display: -webkit-box;
@@ -77,4 +78,62 @@ swiper image {
  -webkit-box-orient: vertical;
  -webkit-line-clamp: 1;
  overflow: hidden;
+}
+
+.specialty{
+  text-align: center;
+}
+
+.specialty text{
+  font-size: 14px;
+  color: gray;
+}
+
+.specialty image{
+  width: 100%;
+}
+
+.environment{
+  text-align: center;
+}
+
+.environment text{
+  font-size: 14px;
+  color: gray;
+}
+
+.environment scroll-view view{
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.environment scroll-view view:last-child{
+  margin-right: 10px;
+}
+
+.environment image{
+  width: 150px;
+  height: 100px;
+}
+
+.environment image:last-child{
+  margin-right: 10px;
+}
+
+scroll-view {
+  width: 100%;
+  white-space: nowrap;
+}
+
+/*横向布局  */
+.layout_horizontal{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100rpx;
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
 }

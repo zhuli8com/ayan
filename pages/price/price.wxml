@@ -1,2 +1,14 @@
 <!--pages/price/price.wxml-->
-<text>pages/price/price.wxml</text>
+<view class="body">
+  <video src="https://ugccsy.qq.com/uwMROfz2r5zEIaQXGdGnC2dfJ7xlHUZLN7WLSNBHzUj-9W46/w0396rkg98f.p712.1.mp4?sdtfrom=v1010&guid=4fb11f2e28f4ea5f7f6e6d9dc358f156&vkey=47E4491C1129857377B8374042B4BD05889CB82CDDB97078F454AF81464B9B9441BEC256DCCC85BCB75A6F71853C8839B24CC95565A2A2ABA4F80EA3CEC2F983E52D44C3D1F8FCF73387F7CFA01AAFA814FAB3DD1F92FACA274F10D8F332D0293A950420A20208F861076A2E4D63DE765A2BFE97156A8AA222ADAE0AED99ACA9" objectFit="fill"></video>
+
+  <view>
+    <text>--快来预定吧--</text>
+    <image src="/images/contact.jpeg" mode="widthFix"></image>
+  </view>
+
+  <view>
+    <text>--农家院位置--</text>
+    <map id="myMap" class="" show-location longitude="117.4696070000" latitude="40.0852040000" markers="{{markers}}" scale="30"></map>
+  </view>
+</view>

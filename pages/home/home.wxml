@@ -3,7 +3,7 @@
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" current="{{current}}" bindchange="swiperChange" catchtap="onSwiperTap">
     <block wx:for="{{imgUrls}}" wx:key="banner">
       <swiper-item>
-        <image src="{{item}}" class="slide-image" />
+        <image src="{{item}}" class="slide-image" mode="widthFix"/>
       </swiper-item>
     </block>
   </swiper>
@@ -14,15 +14,32 @@
   </view>
 </view>
 
-<view class="userContainer" bindtap="goMap">
- <view>
-  <image style="width: 33px; height: 33px; background-color: #fff;" src="../../images/location.png"></image>
- </view>
- <view >
- <text class="productNameText">天津市蓟州区渔阳镇果园东村2区14号阿燕农家院</text>
-  <!-- <button bindtap="goMap" class="note2_item" style="width:100%">天津市蓟州区渔阳镇果园东村2区14号阿燕农家院</button> -->
- </view>
- <view style="margin-right:5px">></view>
+<view class="layout_horizontal" bindtap="goMap">
+<image style="width: 13px; height: 13px; background-color: #fff;padding-top:2px" src="/images/坐标.png"></image>
+    <text class="productNameText" style="flex:1;">天津市蓟州区渔阳镇果园东村2区14号阿燕农家院</text>
+<view class="productNameText">导航</view>
+<image src="/images/Navigation.png" style="width: 16px; height: 16px; background-color: #fff;" ></image>
+</view>
+
+<view class="specialty">
+<text>阿燕农家院--挑战你的味蕾</text>
+<image src="/images/specialty1.jpeg" mode="widthFix"></image>
+<image src="/images/specialty2.jpeg" mode="widthFix"></image>
+</view>
+
+<view class="environment">
+  <text>农家院环境</text>
+  <scroll-view scroll-x="true">
+    <view>
+      <image src="/images/shiwaitaoyuan.jpeg"></image>
+    </view>
+    <view>
+      <image src="/images/zhushuhuanjing.jpeg"></image>
+    </view>
+    <view>
+      <image src="/images/yulesheshi.jpeg"></image>
+    </view>
+  </scroll-view>
 </view>
 
 <view>  
