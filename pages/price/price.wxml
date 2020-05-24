@@ -9,6 +9,6 @@
 
   <view>
     <text>--农家院位置--</text>
-    <map id="myMap" class="" show-location longitude="117.4696070000" latitude="40.0852040000" markers="{{markers}}" scale="30"></map>
+    <map id="myMap" class="" show-location longitude="117.4696070000" latitude="40.0852040000" markers="{{markers}}" scale="18"></map>
   </view>
 </view>
