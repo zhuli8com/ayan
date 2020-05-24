@@ -15,10 +15,10 @@
 </view>
 
 <view class="layout_horizontal" bindtap="goMap">
-<image style="width: 13px; height: 13px; background-color: #fff;padding-top:2px" src="/images/坐标.png"></image>
-    <text class="productNameText" style="flex:1;">天津市蓟州区渔阳镇果园东村2区14号阿燕农家院</text>
-<view class="productNameText">导航</view>
-<image src="/images/Navigation.png" style="width: 16px; height: 16px; background-color: #fff;" ></image>
+  <image src="/images/home_location.png" style="width: 13px; height: 13px;margin-top:2px" mode="widthFix"></image>
+  <text class="productNameText" style="flex:1;">天津市蓟州区渔阳镇果园东村2区14号阿燕农家院</text>
+  <view class="productNameText1">导航</view>
+  <image src="/images/Navigation.png" style="width: 16px; height: 16px; background-color: #fff;"></image>
 </view>
 
 <view class="specialty">

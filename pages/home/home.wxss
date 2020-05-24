@@ -37,7 +37,7 @@ swiper image {
   height: 70rpx;  
   width: 70rpx;  
   position: fixed;  
-  bottom: 220rpx;  
+  bottom: 520rpx;  
   right: 30rpx;  
   opacity: 0.7
 }  
@@ -45,7 +45,7 @@ swiper image {
   height: 70rpx;  
   width: 70rpx;  
   position: fixed;  
-  bottom: 130rpx;  
+  bottom: 430rpx;  
   right: 30rpx;   
   opacity: 0.7
 }  
@@ -79,6 +79,18 @@ swiper image {
  -webkit-line-clamp: 1;
  overflow: hidden;
 }
+
+.productNameText1 {
+  color: #08af75;
+  font-size: 13px;
+  text-overflow:ellipsis;
+  z-index: -1;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+ }
 
 .specialty{
   text-align: center;
@@ -130,9 +142,9 @@ scroll-view {
 /*横向布局  */
 .layout_horizontal{
   margin-top: 10px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   margin-right: 10px;
-  height: 100rpx;
+  height: 50rpx;
   display: flex;
   /*row 横向  column 列表  */
   flex-direction: row;

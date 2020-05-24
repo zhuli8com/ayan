@@ -23,3 +23,22 @@
   height:35vh;
   margin-top:10px;
 }
+
+.img-plus-style {  
+  height: 70rpx;  
+  width: 70rpx;  
+  position: fixed;  
+  bottom: 520rpx;  
+  right: 30rpx;  
+  opacity: 0.7;
+}  
+.img-plus-style1 {  
+  height: 70rpx;  
+  width: 70rpx;  
+  position: fixed;  
+  bottom: 430rpx;  
+  right: 30rpx;   
+  opacity: 0.7;
+}  
+.zindex100{z-index: 100}
+.yc{opacity: 0}

@@ -9,6 +9,13 @@
 
   <view>
     <text>--农家院位置--</text>
-    <map id="myMap" class="" show-location longitude="117.4696070000" latitude="40.0852040000" markers="{{markers}}" scale="18"></map>
+    <map id="myMap" class="" show-location longitude="117.4696070000" latitude="40.0852040000" markers="{{markers}}" scale="18" bindmarkertap="goMap" bindcallouttap="goMap"></map>
   </view>
+</view>
+
+<view>  
+  <contact-button type="default-dark" size="20" session-from="weapp" class="img-plus-style zindex100 yc">
+  </contact-button>
+  <image src="../../images/xk_kefu.png" class="img-plus-style"></image> 
+  <image src="../../images/xk_tel.png" class="img-plus-style1" bindtap="calling"></image>
 </view>

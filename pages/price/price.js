@@ -1,4 +1,6 @@
-// pages/price/price.js
+// 引入SDK核心类 https://lbs.qq.com/dev/console/key/setting?key=VAOBZ-NLP6P-TBTD3-VXSUR-TEPTZ-IGFD3
+var QQMapWX = require('../../utils/qqmap-wx-jssdk.min.js');
+
 Page({
 
   /**
@@ -6,6 +8,13 @@ Page({
    */
   data: {
     markers:[{
+      callout: {
+        content: '点我导航',
+        color:'#08af75',
+        padding: 5,
+        borderRadius: 2,
+        display: 'ALWAYS'
+      },
       id: "0",      //标记点id
       iconPath: "/images/location.png",    //标记点图标
       longitude: 117.4696070000,    //中心经度
@@ -69,5 +78,25 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+  goMap(e) {//https://developers.weixin.qq.com/community/servicemarket/detail/00024cc78b8140578af86e6905b415
+    let plugin = requirePlugin('routePlan');
+    let key = 'VAOBZ-NLP6P-TBTD3-VXSUR-TEPTZ-IGFD3';  //使用在腾讯位置服务申请的key
+    let referer = '阿燕农家院';   //调用插件的app的名称
+    let endPoint = JSON.stringify({  //终点
+      'name': '阿燕农家院',
+      'latitude': 40.0852040000,
+      'longitude': 117.4696070000
+    });
+    wx.navigateTo({
+      url: 'plugin://routePlan/index?navigation=1&key=' + key + '&referer=' + referer + '&endPoint=' + endPoint
+    });
+  },
+
+  calling: function () {
+    wx.makePhoneCall({
+      phoneNumber: '15620418398',
+    })
+  },
 })
