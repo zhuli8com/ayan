@@ -1,6 +1,10 @@
 <!--pages/play/play.wxml-->
-<view class="play">
-<image src="http://blogs.zhushihong.com/photos/ayan/play1.jpeg" mode="widthFix"></image>
+<view class="play" wx:for="{{plays}}">
+  <view>
+    <image src="{{item.imageUrl}}" mode="widthFix"></image>
+    <text>{{item.name}}</text>
+  </view>
+<!-- <image src="http://blogs.zhushihong.com/photos/ayan/play1.jpeg" mode="widthFix"></image>
 <image src="http://blogs.zhushihong.com/photos/ayan/play2.jpeg" mode="widthFix"></image>
-<image src="http://blogs.zhushihong.com/photos/ayan/play3.jpeg" mode="widthFix"></image>
+<image src="http://blogs.zhushihong.com/photos/ayan/play3.jpeg" mode="widthFix"></image> -->
 </view>

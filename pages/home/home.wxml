@@ -22,22 +22,43 @@
 </view>
 
 <view class="specialty">
-<text>阿燕农家院--挑战你的味蕾</text>
-<image src="/images/specialty1.jpeg" mode="widthFix"></image>
-<image src="/images/specialty2.jpeg" mode="widthFix"></image>
+  <text style="padding: 10px 0px;font-size: 20px;color: #08af75;">阿燕农家院--挑战你的味蕾</text>
+  <view class="eat">
+    <view class="row">
+     <image src="/images/eat/eat1.jpeg"></image>
+     <image src="/images/eat/eat2.jpeg"></image>
+    </view>
+    <view class="row">
+     <image src="/images/eat/eat3.jpeg"></image>
+     <image src="/images/eat/eat4.jpeg"></image>
+    </view>
+    <view class="row">
+     <image src="/images/eat/eat5.jpeg"></image>
+     <image src="/images/eat/eat6.jpeg"></image>
+    </view>
+    <view class="row">
+     <image src="/images/eat/eat7.jpeg"></image>
+     <image src="/images/eat/eat8.jpeg"></image>
+    </view>
+  </view>
+  <!-- <image src="/images/specialty1.jpeg" mode="widthFix"></image>
+  <image src="/images/specialty2.jpeg" mode="widthFix"></image> -->
 </view>
 
 <view class="environment">
   <text>农家院环境</text>
   <scroll-view scroll-x="true">
     <view>
-      <image src="/images/shiwaitaoyuan.jpeg"></image>
+      <image src="/images/environment1.jpeg"></image>
     </view>
     <view>
-      <image src="/images/zhushuhuanjing.jpeg"></image>
+      <image src="/images/environment2.jpeg"></image>
     </view>
     <view>
-      <image src="/images/yulesheshi.jpeg"></image>
+      <image src="/images/environment3.jpeg"></image>
+    </view>
+    <view>
+      <image src="/images/environment4.jpeg"></image>
     </view>
   </scroll-view>
 </view>
@@ -45,6 +66,6 @@
 <view>  
   <contact-button type="default-dark" size="20" session-from="weapp" class="img-plus-style zindex100 yc">
   </contact-button>
-  <image src="../../images/xk_kefu.png" class="img-plus-style"></image> 
+  <!-- <image src="../../images/xk_kefu.png" class="img-plus-style"></image>  -->
   <image src="../../images/xk_tel.png" class="img-plus-style1" bindtap="calling"></image>
 </view>

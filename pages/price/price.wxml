@@ -1,14 +1,28 @@
 <!--pages/price/price.wxml-->
 <view class="body">
-  <video src="https://ugccsy.qq.com/uwMROfz2r5zEIaQXGdGnC2dfJ7xlHUZLN7WLSNBHzUj-9W46/w0396rkg98f.p712.1.mp4?sdtfrom=v1010&guid=4fb11f2e28f4ea5f7f6e6d9dc358f156&vkey=47E4491C1129857377B8374042B4BD05889CB82CDDB97078F454AF81464B9B9441BEC256DCCC85BCB75A6F71853C8839B24CC95565A2A2ABA4F80EA3CEC2F983E52D44C3D1F8FCF73387F7CFA01AAFA814FAB3DD1F92FACA274F10D8F332D0293A950420A20208F861076A2E4D63DE765A2BFE97156A8AA222ADAE0AED99ACA9" objectFit="fill"></video>
+  <text>生态旅游、观光、度假、疗养；</text>
+  <text>登山、采各种山蘑菇、野菜、栽野果；</text>
+  <text>放牧、推石碾子；</text>
+  <text>科研教学、烤全羊、篝火晚会；</text>
+  <text>观民从俗风情表演。</text>
+  <!-- <video src="https://ugccsy.qq.com/uwMROfz2r5zEIaQXGdGnC2dfJ7xlHUZLN7WLSNBHzUj-9W46/w0396rkg98f.p712.1.mp4?sdtfrom=v1010&guid=4fb11f2e28f4ea5f7f6e6d9dc358f156&vkey=47E4491C1129857377B8374042B4BD05889CB82CDDB97078F454AF81464B9B9441BEC256DCCC85BCB75A6F71853C8839B24CC95565A2A2ABA4F80EA3CEC2F983E52D44C3D1F8FCF73387F7CFA01AAFA814FAB3DD1F92FACA274F10D8F332D0293A950420A20208F861076A2E4D63DE765A2BFE97156A8AA222ADAE0AED99ACA9" objectFit="fill"></video> -->
 
-  <view>
+  <!-- <view>
     <text>--快来预定吧--</text>
     <image src="/images/contact.jpeg" mode="widthFix"></image>
+  </view> -->
+  <view class="contact">
+    <text style="padding: 10px 0px;font-size: 20px;color: #08af75;">--联系我们--</text>
+    <text>联系人：李经理</text>
+    <text>联系电话：13682058370</text>
+    <text>联系地址：天津市蓟州区城关镇东果园村</text>
+    <text>营业时间：24小时</text>
+
+    <text style="padding: 20px 0px;font-size: 20px;color: #08af75;">--农家院位置--</text>
+
   </view>
 
   <view>
-    <text>--农家院位置--</text>
     <map id="myMap" class="" show-location longitude="117.4696070000" latitude="40.0852040000" markers="{{markers}}" scale="18" bindmarkertap="goMap" bindcallouttap="goMap"></map>
   </view>
 </view>
@@ -16,6 +30,6 @@
 <view>  
   <contact-button type="default-dark" size="20" session-from="weapp" class="img-plus-style zindex100 yc">
   </contact-button>
-  <image src="../../images/xk_kefu.png" class="img-plus-style"></image> 
+  <!-- <image src="../../images/xk_kefu.png" class="img-plus-style"></image>  -->
   <image src="../../images/xk_tel.png" class="img-plus-style1" bindtap="calling"></image>
 </view>

@@ -13,10 +13,11 @@ Page({
    * 页面的初始数据
    */
   data: {
+    // 轮播图
     imgUrls: [
       "../../images/WechatIMG9740.jpeg",
       "../../images/WechatIMG9741.jpeg",
-      "../../images/WechatIMG9742.jpeg",
+      // "../../images/WechatIMG9742.jpeg",
       "../../images/WechatIMG9743.jpeg"
       // 'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
       // 'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
@@ -27,6 +28,17 @@ Page({
     interval: 5000,
     duration: 1000,
     current: 0,
+
+    // 农家院菜谱
+    eat: [
+      "/images/eat/eat1.jpeg",
+      "/images/eat/eat2.jpeg",
+      "/images/eat/eat3.jpeg",
+      "/images/eat/eat4.jpeg",
+      "/images/eat/eat5.jpeg",
+      "/images/eat/eat6.jpeg",
+      "/images/eat/eat7.jpeg"
+    ]
   },
 
   /**

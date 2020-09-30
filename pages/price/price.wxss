@@ -2,6 +2,8 @@
 .body{
   margin: 10px 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .body video{
@@ -42,3 +44,13 @@
 }  
 .zindex100{z-index: 100}
 .yc{opacity: 0}
+
+/* 联系我们 */
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact text{
+  padding: 5px 0px;
+}
