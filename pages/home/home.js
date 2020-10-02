@@ -105,9 +105,9 @@ Page({
 
   onSwiperTap: function (event) {
     // var id = event.target.dataset.Id;
-    wx.navigateTo({
-      url: '../webview/webview'
-    })
+    // wx.navigateTo({
+    //   url: '../webview/webview'
+    // })
   },
 
   goMap(e) {//https://developers.weixin.qq.com/community/servicemarket/detail/00024cc78b8140578af86e6905b415
@@ -126,7 +126,7 @@ Page({
 
   calling: function () {
     wx.makePhoneCall({
-      phoneNumber: '15620418398',
+      phoneNumber: '15222772119',
     })
   },
 })
